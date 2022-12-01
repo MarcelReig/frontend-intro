@@ -1,0 +1,82 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fef6e4;
+  color: #172c66;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nerko One", cursive;
+  color: #001858;
+}
+a {
+  text-decoration: none;
+  color: #001858;
+}
+a:hover {
+  color: #f582ae;
+}
+ul {
+  list-style: none;
+}
+img {
+  border-radius: 4px;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul > li {
+  margin-left: 10px;
+}
+.brand h1 {
+  line-height: 0.5;
+}
+.brand > a {
+  color: #001858;
+}
+.brand > a:hover > h1 {
+  color: #8bd3dd;
+}
+.card {
+  display: flex;
+  background-color: #001858;
+  border-radius: 4px;
+  color: #fef6e4;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.card > ul > li {
+  font-size: 20px;
+  line-height: 2;
+  transition: all 0.2s ease-in-out;
+}
+.card > ul > li:hover {
+  font-weight: 500;
+  cursor: pointer;
+  color: #8bd3dd;
+  letter-spacing: 2px;
+}
+.return-index {
+  font-size: 30px;
+}
+@media (max-width: 575.98px) {
+  nav > ul > li > a {
+    font-size: 35px;
+    margin-left: 20px;
+  }
+  nav > ul > li > a > span {
+    display: none;
+  }
+}
